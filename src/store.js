@@ -6,14 +6,15 @@ import { reduxFirestore, firestoreReducer } from "redux-firestore";
 
 // Reducers
 
+// Use your own firebase config
 const firebaseConfig = {
-  apiKey: "AIzaSyDl33SZOXhAs5lhKVQ8k6rD880fjhBK-cc",
-  authDomain: "clientpanel-e0286.firebaseapp.com",
-  databaseURL: "https://clientpanel-e0286.firebaseio.com",
-  projectId: "clientpanel-e0286",
-  storageBucket: "clientpanel-e0286.appspot.com",
-  messagingSenderId: "55991235423",
-  appId: "1:55991235423:web:0d08e4ce71ba01a9"
+  apiKey: "",
+  authDomain: "",
+  databaseURL: "",
+  projectId: "",
+  storageBucket: "",
+  messagingSenderId: "",
+  appId: ""
 };
 
 // react-redux-firebase config
